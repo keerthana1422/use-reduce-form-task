@@ -30,25 +30,22 @@ username:
     <input type="password" name="pwd" value={formState.pwd}  placeholder="password" onchange ={(e) => handleTextChange(e)}/>
 </label><br></br>
 <label>
-    first name
+    first name:
 <input type="text" name="firstname" value={formState.firstname} placeholder="Firstname" onChange={(e) => handleTextChange(e)} required/>
 </label><br></br>
 <label>
-    first name
+    Last name:
 <input type="text" name="lasttname" value={formState.lastname} placeholder="Lastname" onChange={(e) => handleTextChange(e)} required/>
 </label><br></br>
 <label>
-  email
+  email id:
 <input type="email" name="email" value={formState.email} placeholder="Email id" onChange={(e) => handleTextChange(e)} required/>
 </label><br></br>
 <label>
 number:
 <input type="number" name="number" value= {formState.number} placeholder="Phone Number"onChange={(e) => handleTextChange(e)} required/>
 </label><br></br>
-<label>
-Date:
-<input type="date" />
-</label><br></br>
+
 <button >submit</button>
 
 

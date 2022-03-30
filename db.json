@@ -1,19 +1,33 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "username": "admin",
+      "password": "pass12345",
+      "firstname": "admin",
+      "lastname": "admin",
+      "phoneno": 123456789
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
